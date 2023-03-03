@@ -28,3 +28,21 @@ MeowArray.splice(3,1)
 console.log(MeowArray) */
 
 //.fill method:
+/* const MeowArray = ["Coding", "with", "Meow", "is", "fun!", "Cutie", "Kittycat!", "Cat!"]
+MeowArray.fill("hey",1,4)
+console.log(MeowArray) */
+
+//.pop() method:
+/* const MeowArray = [`Learning`, `is`, `fun`];
+MeowArray.pop();
+console.log(MeowArray); */
+
+//.push() method:
+/* const MeowArray = [`Learning`, `is`, `fun`]
+MeowArray.push(`Meow!`);
+console.log(MeowArray); */
+
+//.reverse() mrthod:
+/* const MeowArray = [`Learninin`, `is`, `fun`];
+console.log(MeowArray.reverse());
+ */
