@@ -8,10 +8,23 @@ const result = artikel1 + artikel2 + artikel3;
 console.table(autos);
 console.log(autos[2]); */
 
-/* const autos = ["Porsche", "Audi", "Tesla","BMW","BMW"];
+ /* const autos = ["Porsche", "Audi", "Tesla","BMW","BMW"];
 const result = autos.indexOf("BMW", 4)
-console.log(result); */
+console.log(result); 
 
-const autos = ["Porsche", "Audi", "Tesla","BMW","BMW"];
-const result = autos.indexOf("BMW", autos.indexOf("BMW") +1)
-const result2 = autos.indexOf("Ferrari");
+const autos = ["Porsche", "Audi", "Tesla", "BMW", "BMW"];
+const result = autos.indexOf("BMW", autos.indexOf("BMW") + 1)
+const result2 = autos.indexOf("Ferrari"); */
+
+
+//.copyWithin() method: 
+/* const MeowArray = ["Coding", "with", "Meow", "is", "fun!", "Cutie", "Kittycat!", "Cat!"]
+MeowArray.copyWithin(5,1)
+console.log(MeowArray) */
+
+//.splice method:
+/* const MeowArray = ["Coding", "with", "Meow", "is", "fun!", "Cutie", "Kittycat!", "Cat!"]
+MeowArray.splice(3,1)
+console.log(MeowArray) */
+
+//.fill method:
