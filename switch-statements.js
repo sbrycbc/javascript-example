@@ -61,4 +61,39 @@ switch (true){
     break;
     default:
         console.log(`${firstname} is an adult!!`);
-} 
+}
+
+// -4
+const statusCode = 600;
+switch (statusCode){
+    case 200:
+        console.log(`status code: success`);
+        break;
+    case 400:
+        console.log(`status code: success400`);
+        break;
+    case 404:
+        console.log(`status code: success404`);
+        break;
+    case 500:
+        console.log(`status code: success500`);
+        break;
+    default:
+        console.log(`default`);
+}
+
+if(statusCode === 200){
+    console.log(`status code: success`);
+}
+else if (statusCode === 400){
+    console.log(`status code: success400`);
+}
+else if (statusCode === 404){
+    console.log(`status code: success404`);
+}
+else if (statusCode === 500){
+    console.log(`status code: success500`);
+}
+else{
+    console.log(`default`)
+}
