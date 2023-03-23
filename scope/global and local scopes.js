@@ -29,7 +29,7 @@ if(true){
 }
 
 //console.log(`block scope`, model,year,color);
-console.log(model);
+console.log(year);
 
 const i = 1;
 
