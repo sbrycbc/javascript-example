@@ -21,4 +21,23 @@ function addThere(a){
 }
 
 console.log(MultipleByTwo(5,10,20,addTwo));
+console.log();
+console.log("-".repeat(30) + "/".repeat(10) + "-".repeat(30));
+console.log();
+
+setTimeout(()=> {
+    console.log("in zwei Sekunde anfangen!!")
+},2000);
+
+
+const fruits =["apple", "pear", "grapes","kivi","banana"];
+const fruit = fruits.filter((fruit)=>{
+    return fruit.length === 4;
+});
+
+console.log(fruit);
+
+console.log();
+console.log("-".repeat(30) + "/".repeat(10) + "-".repeat(30));
+console.log();
 
