@@ -41,7 +41,3 @@ console.log(mustang.open());
 console.log();
 console.log(`============================================`)
 
-class Bicycle extends Vehicle{
-    
-
-}
