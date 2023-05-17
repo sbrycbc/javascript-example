@@ -1,13 +1,30 @@
 // Selecting Element
 
-// *** Single Elements
+const clearButton = document.querySelector("#todoClearButton");
 
-let val;
+const todoList = document.querySelector(".list-group");
 
-val = document.getElementById('header');
-val = document.getElementById('header').id;
-val = document.getElementById('header').class;
+const todoListe = document.querySelectorAll(".list-group-item")[2];
+
+const todoListt = Array.from(document.querySelectorAll("li:first.child(even)"));
+ todoListt.forEach(function(todo){
+    todo.style.backgroundColor = "lightgrey";
+});
 
 
+// Style 
 
-console.log(val);
+const todo = document.querySelectorAll(".list-group-item")[0];
+
+todo.style.color ="red";
+todo.style.backgroundColor = "purple";
+todo.style.fontWeight = "bold";
+todo.style.paddingTop = "20px";
+todo.style.paddingLeft = "70px";
+
+
+value = todo.parentElement; // Eltern element e ulasabiliriz
+
+value = todo.nextElementSibling; // Kinder elementler arasi  iler gecis;
+value = todo.previousElementSibling;// Kinderler arasi geri gecis;
+
