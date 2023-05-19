@@ -28,3 +28,10 @@ value = todo.parentElement; // Eltern element e ulasabiliriz
 value = todo.nextElementSibling; // Kinder elementler arasi  iler gecis;
 value = todo.previousElementSibling;// Kinderler arasi geri gecis;
 
+
+cardBody.appendChild(link);
+
+const todo = document.createElement("li");
+const todoLInk = document.createElement("a");
+
+todo.className = "list-group-item d flex justify-content-between";
